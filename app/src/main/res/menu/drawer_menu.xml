@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/mp3_menu_auto_sound_control" android:title="Auto Sound Control" android:id="@+id/drawer_menu_auto_sound"/>
+        <item android:icon="@drawable/mp3_menu_lyrics_setting" android:title="Lyrics Set" android:id="@+id/drawer_menu_lyricsSetting"/>
+        <item android:icon="@drawable/mp3_menu_name_change_button" android:title="File Name Change" android:id="@+id/drawer_menu_nameChange"/>
+        <item android:icon="@drawable/mp3_menu_picture_setting" android:title="Picture Set" android:id="@+id/drawer_menu_pictureSetting"/>
+    </group>
+</menu>
