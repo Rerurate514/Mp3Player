@@ -339,8 +339,6 @@ class MusicListenActivity : AppCompatActivity(){
                     afterFile?.let { beforeFile?.renameTo(it) }
                     realmInsertPath += afterFile
 
-                    val musicFile = MusicPathRelationClass().getMusicFile(title)
-
                     musicInfoIns.insertData(
                         title,
                         RealmControlClass().musicPathString(),
